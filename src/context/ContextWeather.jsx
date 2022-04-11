@@ -12,7 +12,7 @@ const ContextWeatherProvider = ({ children }) => {
     try {
       setLoading(true);
       const resp = await axios.get(
-        `http://api.weatherapi.com/v1/forecast.json?key=52882b95a024481f92470050220704&q=${locationWeather}&days=3&aqi=no&alerts=no`
+        `https://api.weatherapi.com/v1/forecast.json?key=52882b95a024481f92470050220704&q=${locationWeather}&days=3&aqi=no&alerts=no`
       );
 
       setWeather(resp.data);

@@ -17,7 +17,7 @@ const ListWeather = () => {
 
   return (
     <div className="animate__animated  animate__fadeIn  p-2 sm:h-full md:h-5/6 lg:h-5/6 w-full custom-div ">
-      <h1 className="my-1 text-3xl text-center font-black font-mono text-white md:text-gray-700">
+      <h1 className="my-1 text-3xl text-center font-black font-mono text-white lg:text-gray-700">
         Pronosticos en los siguientes dias
       </h1>
       <div className="flex flex-col  px-5">

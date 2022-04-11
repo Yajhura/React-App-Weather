@@ -18,7 +18,7 @@ const ActiveWeather = () => {
   return (
     <div className="animate__animated  animate__fadeIn custom-div flex flex-col w-full py-10 px-4 ">
       <div className=" flex flex-col">
-        <div className="my-5 text-white md:text-gray-700">
+        <div className="my-5 text-white lg:text-gray-700">
           <h2 className="text-4xl md:text-4xl uppercase font-bold text-left">
             {location?.name}
           </h2>
@@ -28,7 +28,7 @@ const ActiveWeather = () => {
         </div>
 
         <div className=" lg:px-2 xl:px-5 flex items-center justify-between mb-10">
-          <h2 className=" text-6xl md:text-7xl font-bold text-white md:text-gray-900">
+          <h2 className=" text-6xl lg:text-7xl font-bold text-white md:text-gray-900">
             {current?.temp_c}°
           </h2>
           <img

@@ -55,6 +55,7 @@ function MyCombobox() {
           value={query}
           className="input"
           onChange={handleChange}
+          placeholder="Escriba la capital de su país u otro capital"
         />
         <div
           className={`border-x-2   border-gray-200 ${
@@ -65,7 +66,7 @@ function MyCombobox() {
             suggestion.map((item, id) => (
               <p
                 onClick={() => onsuggestionSelected(item.capital)}
-                className={`text-blue-400 font-semibold p-1 hover:bg-slate-600 `}
+                className={`text-blue-600 font-semibold p-1 hover:bg-gray-200 `}
                 key={id}
               >
                 {item.capital}
